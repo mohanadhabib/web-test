@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    direction: rtl;
+}
+#header{
+    background-color: #0a3138;
+    flex-basis: 20%;
+    display: flex;
+    position: sticky;
+    flex-direction: row;
+    align-items: center;
+}
+#body{
+    background-color: white;
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#footer{
+    background-color: #0a3138;
+    flex-basis: 10%;
+    position: sticky;
+}
+#logo{
+    width: 8rem;
+    height: 8rem;
+}
+ul{
+    list-style: none;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 30px;
+    margin-inline-end: 30px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-family: "Rubik", serif;
+}
+#company-name{
+    font-size: 20px;
+    color: white;
+    font-family: "Rubik", serif;
+}
+h1{
+    margin: 10px;
+    font-family: "Rubik", serif;
+}
+#body p {
+    font-size: 16px;
+    justify-self: center;
+    font-family: "Rubik", serif;
+    margin: 10px;
+}
