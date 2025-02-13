@@ -26,8 +26,8 @@ body{
     position: sticky;
 }
 #logo{
-    width: 8rem;
-    height: 8rem;
+    width: 10rem;
+    height: 10rem;
 }
 ul{
     list-style: none;
@@ -43,7 +43,7 @@ ul{
     font-family: "Rubik", serif;
 }
 #company-name{
-    font-size: 20px;
+    font-size: 28px;
     color: white;
     font-family: "Rubik", serif;
 }
