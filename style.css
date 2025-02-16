@@ -20,8 +20,8 @@
   }
   #star-image {
     background-color: aqua;
-    width: 250px;
-    height: 250px;
+    width: 450px;
+    height: 450px;
     background: url(./images/img.svg);
     background-size: cover;
     margin: 10px;
@@ -39,14 +39,14 @@
   }
   #content h1 {
     color: white;
-    font-size: 28px;
+    font-size: 48px;
     font-family: "Droid Serif";
     text-align: center;
   }
   #content p {
     color: white;
     font-family: "Chivo";
-    font-size: 18px;
+    font-size: 28px;
     text-align: center;
   }
   #second-page {
@@ -64,19 +64,19 @@
     margin-left: 4%;
   }
   #sec-one h2 {
-    font-size: 35px;
+    font-size: 45px;
     color: #01433e;
     font-family: "Chivo";
     font-weight: normal;
   }
   #sec-one h3 {
-    font-size: 28px;
+    font-size: 38px;
     font-family: "Chivo";
     color: #076967;
     font-weight: normal;
   }
   #sec-one p {
-    font-size: 20px;
+    font-size: 32px;
     font-family: "Chivo";
     color: #6ab5b8;
     font-weight: normal;
@@ -94,7 +94,7 @@
   #sec-two h3 {
     margin: 0px;
     font-family: "Chivo";
-    font-size: 28px;
+    font-size: 38px;
     font-weight: normal;
     color: #076967;
   }
@@ -108,7 +108,7 @@
   }
   #container li {
     margin: 30px 0px;
-    font-size: 20px;
+    font-size: 32px;
     font-family: "Chivo";
     color: #6ab5b8;
     font-weight: normal;
@@ -120,7 +120,7 @@
   }
   #body {
     height: 85vh;
-    padding-top: 20vh;
+    padding-top: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,7 +141,7 @@
   }
   #links-list li a {
     color: white;
-    font-size: 18px;
+    font-size: 28px;
     text-decoration: none;
     font-family: "Chivo";
     font-weight: lighter;
@@ -156,13 +156,13 @@
   #contact-me-body h2 {
     color: #076967;
     font-family: "Chivo";
-    font-size: 28px;
+    font-size: 40px;
     font-weight: bold;
   }
   #contact-me-body p {
     color: #6ab5b8;
     font-family: "Chivo";
-    font-size: 20px;
+    font-size: 32px;
     font-weight: normal;
     margin-top: 0px;
   }
@@ -170,7 +170,7 @@
     background-color: #076967;
     border-radius: 12px;
     color: white;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: normal;
     font-family: "Chivo";
     padding: 15px;
