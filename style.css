@@ -85,7 +85,6 @@
   #sec-two {
     margin-left: 4%;
     margin-right: 4%;
-    height: 100vh;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -122,6 +121,7 @@
     height: 85vh;
     padding-top: 30vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
