@@ -6,7 +6,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 15vh;
+    height: 12.5vh;
     width: 100vw;
     background-color: #1D8B8E;
 }
@@ -26,20 +26,34 @@ body{
     width: 100vw;
     height: 30vh;
 }
+#logo{
+    width: 15vw;
+    height: 15vh;
+    align-self: center;
+}
 #text{
     align-self: center;
     color: #ffffff; 
     font-family: "Roboto",sans-serif;
+    font-size: 1rem;
 }
 
 
 @media(min-width: 600px){
+    #nav-bar{
+        height: 15vh;
+    }
     #nav-text{
         color: #ffffff;
         font-size: 2rem;
     }
     #logo-sec{
         justify-content: center;
+    }
+    #logo{
+        width: 20vw;
+        height: 30vh;
+        align-self: center;
     }
     #text{
         font-size: 2rem;
