@@ -1,22 +1,48 @@
-.navbar{
-    height: 80px;
+body{
+    margin: 0px;
+    background-color: #083130;
+}
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 15vh;
+    width: 100vw;
     background-color: #1D8B8E;
 }
-.navbar-toggler-icon{
+#nav-icon{
     width: 30px;
     height: 30px;
-    color: white;
+    margin: 0px 15px;
 }
-.navbar-brand{
-    color: white;
+#nav-text{
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-family: "Roboto",sans-serif;
 }
-.navbar-text{
-    display: inline;
-    color: white;
-    margin-right: 20px;
-    font-size: 24px;
-    font-family: "Roboto", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-weight: normal;
+#logo-sec{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 30vh;
+}
+#text{
+    align-self: center;
+    color: #ffffff; 
+    font-family: "Roboto",sans-serif;
+}
+
+
+@media(min-width: 600px){
+    #nav-text{
+        color: #ffffff;
+        font-size: 2rem;
+    }
+    #logo-sec{
+        justify-content: center;
+    }
+    #text{
+        font-size: 2rem;
+        align-self: center;
+    }
 }
