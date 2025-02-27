@@ -1,62 +1,188 @@
 body{
     margin: 0px;
-    background-color: #083130;
+    display: flex;
+    flex-direction: column;
 }
 #nav-bar{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 12.5vh;
-    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    height: 12vh;
     background-color: #1D8B8E;
 }
-#nav-icon{
-    width: 30px;
-    height: 30px;
-    margin: 0px 15px;
+#full-body{
+    display: flex;
+    flex-direction: row;
 }
-#nav-text{
-    color: #ffffff;
-    font-size: 1.25rem;
+#nav-drawer{
+    width: 15vw;
+    background-color: #71AA6F;
+}
+#section-body{
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+}
+#body{
+    background-color: #083130;
+}
+#footer{
+    height: 14vh;
+    background-color: #1D8B8E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-inline-end: 60px;
+}
+#footer p{
+    margin: 0px;
+    font-size: 20px;
+    font-weight: normal;
     font-family: "Roboto",sans-serif;
+    color: white;
+}
+#nav-bar h1{
+    color: white;
+    font-family: "Roboto",sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    margin-inline-start: 35px;
+}
+#nav-drawer ul {
+    list-style: none;
+    padding: 0px;
+}
+#nav-drawer ul li a{
+    text-decoration: none;
+    color: #D9D9D9;
+    font-family: "Roboto",sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+#nav-drawer ul li {
+    color: #D9D9D9;
+    font-family: "Roboto",sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    margin:  10vh 35px;
 }
 #logo-sec{
     display: flex;
-    flex-direction: row;
-    width: 100vw;
-    height: 30vh;
+    flex-direction: column;
+    align-items: center;
 }
-#logo{
-    width: 15vw;
-    height: 15vh;
-    align-self: center;
+#logo-sec img{
+    width: 350px;
+    height: 350px;
 }
-#text{
-    align-self: center;
-    color: #ffffff; 
+#logo-sec h2{
+    color: #D9D9D9;
     font-family: "Roboto",sans-serif;
-    font-size: 1rem;
+    font-size: 24px;
+    font-weight: bold;
 }
+#about-company-sec{
+    margin-inline-start: 80px;
+    margin-inline-end: 60px;
+    margin-top: 70px;
+}
+h3{
+    color: white;
+    font-family: "Roboto",sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+#about-company-sec p{
+    color: white;
+    font-family: "Roboto",sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 35px;
 
-
-@media(min-width: 600px){
-    #nav-bar{
-        height: 15vh;
-    }
-    #nav-text{
-        color: #ffffff;
-        font-size: 2rem;
-    }
-    #logo-sec{
-        justify-content: center;
-    }
-    #logo{
-        width: 20vw;
-        height: 30vh;
-        align-self: center;
-    }
-    #text{
-        font-size: 2rem;
-        align-self: center;
-    }
+}
+#our-services-sec{
+    margin-inline-start: 80px;
+    margin-inline-end: 60px;
+    margin-top: 15vh;
+}
+#our-services{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.my-card{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.my-card img{
+    width: 30vw;
+}
+.see-more{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 35px;
+}
+.describtion{
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: "Roboto",sans-serif;
+}
+.see-details{
+    color: #ADADAD;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: "Roboto",sans-serif;
+}
+.see-details a{
+    text-decoration: none;
+    color: #ADADAD;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: "Roboto",sans-serif;
+}
+#gallery-sec{
+    margin-inline-start: 80px;
+    margin-inline-end: 60px;
+    margin-top: 15vh;
+}
+#carouselExampleIndicators{
+    background-color: #ADADAD;
+    border-radius: 12px;
+    margin-top: 35px;
+}
+#see-all-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#see-all-info p{
+    color: #ADADAD;
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+#see-all-info p a{
+    text-decoration: none;
+    color: #ADADAD;
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+#carouselExample{
+    margin-top: 35px;
+}
+.carousel-inner{
+    height: 65vh;
+    border-radius: 12px;
+}
+.carousel-item img{
+   object-fit: cover;
+   object-position: center;
 }
