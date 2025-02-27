@@ -2,6 +2,7 @@
 <html lang="ar" dir="rtl">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>الشركه المتكامله للطاقه المتجدده</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,8 +20,43 @@
   </head>
   <body>
     <div id="nav-bar">
-      <h1>الشركه المتكامله للطاقه المتجدده</h1>
+      <h1>
+        الشركه المتكامله للطاقه المتجدده
+      </h1>
     </div>
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <img class="navbar-toggler-icon" src="./images/menu-icon.svg">
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-2">
+              <li class="my-nav-item">
+                <a class="my-nav-link active" href="#about-company-sec" aria-current="page" data-bs-dismiss="offcanvas"> عن الشركه </a>
+              </li>
+              <li class="my-nav-item">
+                <a class="my-nav-link active" href="#our-services-sec" aria-current="page" data-bs-dismiss="offcanvas"> خدماتنا </a>
+              </li>
+              <li class="my-nav-item">
+                <a class="my-nav-link active" href="#gallery-sec" aria-current="page" data-bs-dismiss="offcanvas"> معرض الصور </a>
+              </li>
+              <li class="my-nav-item">
+                <a class="my-nav-link active" href="#footer" aria-current="page" data-bs-dismiss="offcanvas"> موقعنا </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="text">
+        <h1>
+            الشركه المتكامله للطاقه المتجدده
+        </h1>
+        </div>
+      </div>
+    </nav>
     <div id="full-body">
       <div id="nav-drawer">
         <ul>
@@ -67,7 +103,7 @@
                   alt="Implementing Power Plants Section"
                 />
                 <div class="see-more">
-                  <p class="describtion">تركيب محطات<br />الطاقه الشمسيه</p>
+                  <p class="describtion">تركيب محطات <br />الطاقه الشمسيه</p>
                   <p class="see-details">
                     <a href="#">
                       عرض التفاصيل
@@ -81,7 +117,7 @@
                   alt="Maintaining Power Plants Section"
                 />
                 <div class="see-more">
-                  <p class="describtion">صيانه محطات<br />الطاقه الشمسيه</p>
+                  <p class="describtion">صيانه محطات <br />الطاقه الشمسيه</p>
                   <p class="see-details">
                     <a href="#">
                       عرض التفاصيل
@@ -169,5 +205,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="./script.js"></script>
   </body>
 </html>
